@@ -1,5 +1,5 @@
 public class BinOps {
-    IntsCalculator intsCalculator = new IntsCalculator();
+    private IntsCalculator intsCalculator = new IntsCalculator();
     public String sum(String a, String b) {
         int digit1 = Integer.parseInt(a, 2);
         int digit2 = Integer.parseInt(b, 2);

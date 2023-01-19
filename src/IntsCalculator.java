@@ -1,5 +1,5 @@
 public class IntsCalculator implements Ints{
-    Calculator calculator = new Calculator();
+    private Calculator calculator = new Calculator();
     @Override
     public int sum(int arg0, int arg1) {
 
